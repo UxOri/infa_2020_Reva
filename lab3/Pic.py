@@ -8,16 +8,16 @@ Horizon = 450
 screen = pygame.display.set_mode((X, Y))
 
 '''Цвета'''
-SKY_COLOR        = (110, 110, 110)
-GROUND_COLOR     = (110, 133, 129)
-CAR_BODY_COLOR   = (117, 199, 214)
-CAR_WINDOW_COLOR = (188, 212, 212)
-CAR_WHEELS_COLOR = ( 49,  79,  84)
-CITY_COLOR      = ((183, 200, 196),
-                   (200, 213, 210),
-                   (147, 172, 167),
-                   (175, 192, 194),
-                   (120, 152, 145))
+SKY_COLOR           =  (110, 110, 110)
+GROUND_COLOR        =  (110, 133, 129)
+CAR_COLOR = {'BODY'  : (117, 199, 214),
+             'WINDOW': (188, 212, 212),
+             'WHEEL' : ( 49,  79,  84)}
+CITY_COLOR          = ((183, 200, 196),
+                       (200, 213, 210),
+                       (147, 172, 167),
+                       (175, 192, 194),
+                       (120, 152, 145))
 
 def background ():
     '''
