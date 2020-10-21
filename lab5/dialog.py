@@ -1,8 +1,9 @@
 import tkinter as tk
 
+
 class SampleApp(tk.Tk):
     '''
-    Полускопипастченный класс, который нужен для создания диалогового окна 
+    Полускопипастченный класс, который нужен для создания диалогового окна
     с вопросом.
     '''
     def __init__(self):
@@ -13,7 +14,8 @@ class SampleApp(tk.Tk):
         '''
         tk.Tk.__init__(self)
         self.entry = tk.Entry(self)
-        self.button = tk.Button(self, text="Ввести имя", width=12, height=1, command=self.on_button)
+        self.button = tk.Button(self, text="Ввести имя", width=12,
+                                height=1, command=self.on_button)
         self.button.pack()
         self.entry.pack(pady=20)
         self.ans = ''
@@ -24,7 +26,7 @@ class SampleApp(tk.Tk):
         '''
         self.ans = self.entry.get()
         self.destroy()
-        
+
     def text_out(self):
         '''
         Возвращает написанное игроком (так нагляднее)

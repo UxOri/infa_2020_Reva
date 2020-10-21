@@ -11,7 +11,7 @@ core.pygame.display.update()
 clock = core.pygame.time.Clock()
 finished = False
 
-kit = core.Balls(core.screen, core.init_balls(10, 50, kenny_chance = 20))
+kit = core.Balls(core.screen, core.init_balls(10, 50, kenny_chance=20))
 
 '''Главный исполняющий цикл'''
 while not finished:
@@ -35,6 +35,7 @@ place = core.insert(NAME, POINTS)
 
 '''Сообщаем игроку о его результатах и месту в рейтинге игроков'''
 root = core.Tk()
-root.withdraw()                
-core.showinfo(title = "Game over", message = "Ваши результаты занесены в таблицу лидеров \n Ваше место: {}".format(place))
+root.withdraw()
+core.showinfo(title="Game over",
+              message="Ваши результаты занесены в таблицу лидеров \n Ваше место: {}".format(place))
 root.destroy()

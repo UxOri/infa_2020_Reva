@@ -1,5 +1,8 @@
 NaGiBaToR111!1 :: 145
 Steven :: 45
+Andrew :: 41 
+Админ :: 39 
+Семён :: 38 
 Nova :: 36 
 Georg :: 28 
 Lina :: 25 
@@ -7,4 +10,5 @@ Era :: 21
 Dora :: 20
 Evgeny :: 10
 Kate :: 9 
+Andreyka :: 2 
 Kenny :: 0
